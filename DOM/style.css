@@ -1,0 +1,48 @@
+ body {
+                box-sizing: border-box;
+                font-family: sans-serif;
+            }
+
+            #login-container {
+                width: 460px;
+                margin: 0 auto;
+            }
+
+            form label,
+            form input {
+                width: 100%;
+                box-sizing: border-box;
+            }
+
+            .form-control.success input {
+                padding: 8px;
+                border-color: #2ecc71;
+            }
+            .form-control.error input {
+              border-color: #e74c3c;
+             }
+.form-control.succes i.fas fa-check {
+    color: #2ecc71;
+    visibility: visible;
+}
+.form-control.error i.fas fa-times{
+    color: #e74c3c;
+    visibility: visible;
+}
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    bottom: auto;
+    left: 0;
+}
+.form-control.error small {
+    color: #e74c3c;
+    visibility: visible;
+}
+            form label {
+                font-weight: bold;
+            }
+
+            form div {
+                margin: 16px 0px;
+            }
